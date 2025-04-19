@@ -1,0 +1,22 @@
+[
+    {
+      "name": "Paracetamol",
+      "usage": "Used to reduce fever and relieve pain.",
+      "sideEffects": "Nausea, allergic reactions, liver damage (in high doses).",
+      "dosage": {
+        "children": "250 mg every 4-6 hours",
+        "adults": "500 mg every 4-6 hours"
+      }
+    },
+    {
+      "name": "Amoxicillin",
+      "usage": "Antibiotic used to treat bacterial infections.",
+      
+      "sideEffects": "Diarrhea, rash, allergic reaction.",
+      "dosage": {
+        "children": "20-40 mg/kg/day in divided doses",
+        "adults": "500 mg every 8 hours"
+      }
+    }
+  ]
+  
