@@ -1,0 +1,451 @@
+[
+    {
+      "name": "Paracetamol",
+      "usage": "Pain relief and fever reduction.",
+      "sideEffects": "Rare: rash, liver damage if overdosed.",
+      "dosage": [
+        { "age": "Adults", "dose": "500mg every 6 hours" },
+        { "age": "Children (6-12)", "dose": "250mg every 6 hours" }
+      ]
+    },
+    {
+      "name": "Ibuprofen",
+      "usage": "Anti-inflammatory and pain relief.",
+      "sideEffects": "Stomach irritation, kidney issues with prolonged use.",
+      "dosage": [
+        { "age": "Adults", "dose": "200-400mg every 4-6 hours" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Aspirin",
+      "usage": "Pain relief, fever reduction, and anti-inflammatory.",
+      "sideEffects": "Stomach upset, bleeding risk.",
+      "dosage": [
+        { "age": "Adults", "dose": "325-650mg every 4 hours" },
+        { "age": "Children", "dose": "Not recommended" }
+      ]
+    },
+    {
+      "name": "Amoxicillin",
+      "usage": "Treat bacterial infections.",
+      "sideEffects": "Nausea, diarrhea, allergic reactions.",
+      "dosage": [
+        { "age": "Adults", "dose": "500mg every 8 hours" },
+        { "age": "Children", "dose": "25mg/kg daily, divided doses" }
+      ]
+    },
+    {
+      "name": "Cetirizine",
+      "usage": "Relieve allergy symptoms.",
+      "sideEffects": "Drowsiness, dry mouth.",
+      "dosage": [
+        { "age": "Adults", "dose": "10mg once daily" },
+        { "age": "Children (6-12)", "dose": "5mg once daily" }
+      ]
+    },
+    {
+      "name": "Lisinopril",
+      "usage": "Treat high blood pressure and heart failure.",
+      "sideEffects": "Cough, dizziness, low blood pressure.",
+      "dosage": [
+        { "age": "Adults", "dose": "10-40mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Metformin",
+      "usage": "Manage type 2 diabetes.",
+      "sideEffects": "Nausea, diarrhea, lactic acidosis (rare).",
+      "dosage": [
+        { "age": "Adults", "dose": "500mg twice daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Omeprazole",
+      "usage": "Treat acid reflux and ulcers.",
+      "sideEffects": "Headache, abdominal pain.",
+      "dosage": [
+        { "age": "Adults", "dose": "20mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Atorvastatin",
+      "usage": "Lower cholesterol levels.",
+      "sideEffects": "Muscle pain, liver issues (rare).",
+      "dosage": [
+        { "age": "Adults", "dose": "10-80mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Salbutamol",
+      "usage": "Relieve asthma and COPD symptoms.",
+      "sideEffects": "Tremors, rapid heartbeat.",
+      "dosage": [
+        { "age": "Adults", "dose": "2 puffs every 4-6 hours as needed" },
+        { "age": "Children", "dose": "1-2 puffs as needed" }
+      ]
+    },
+    {
+      "name": "Loratadine",
+      "usage": "Relieve allergy symptoms.",
+      "sideEffects": "Headache, fatigue.",
+      "dosage": [
+        { "age": "Adults", "dose": "10mg once daily" },
+        { "age": "Children (6-12)", "dose": "5mg once daily" }
+      ]
+    },
+    {
+      "name": "Ciprofloxacin",
+      "usage": "Treat bacterial infections.",
+      "sideEffects": "Nausea, tendon issues (rare).",
+      "dosage": [
+        { "age": "Adults", "dose": "500mg every 12 hours" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Amlodipine",
+      "usage": "Treat high blood pressure and chest pain.",
+      "sideEffects": "Swelling, dizziness.",
+      "dosage": [
+        { "age": "Adults", "dose": "5-10mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Fluoxetine",
+      "usage": "Treat depression and anxiety.",
+      "sideEffects": "Insomnia, nausea.",
+      "dosage": [
+        { "age": "Adults", "dose": "20mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Prednisone",
+      "usage": "Treat inflammation and autoimmune conditions.",
+      "sideEffects": "Weight gain, mood changes.",
+      "dosage": [
+        { "age": "Adults", "dose": "5-60mg daily, as prescribed" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Hydrochlorothiazide",
+      "usage": "Treat high blood pressure and fluid retention.",
+      "sideEffects": "Dizziness, low potassium.",
+      "dosage": [
+        { "age": "Adults", "dose": "12.5-50mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Levothyroxine",
+      "usage": "Treat hypothyroidism.",
+      "sideEffects": "Palpitations, weight loss.",
+      "dosage": [
+        { "age": "Adults", "dose": "50-200mcg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Azithromycin",
+      "usage": "Treat bacterial infections.",
+      "sideEffects": "Diarrhea, abdominal pain.",
+      "dosage": [
+        { "age": "Adults", "dose": "500mg on day 1, then 250mg daily for 4 days" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Sertraline",
+      "usage": "Treat depression and anxiety disorders.",
+      "sideEffects": "Nausea, insomnia.",
+      "dosage": [
+        { "age": "Adults", "dose": "50-200mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Montelukast",
+      "usage": "Prevent asthma and treat allergies.",
+      "sideEffects": "Headache, mood changes.",
+      "dosage": [
+        { "age": "Adults", "dose": "10mg once daily" },
+        { "age": "Children (6-14)", "dose": "5mg once daily" }
+      ]
+    },
+    {
+      "name": "Warfarin",
+      "usage": "Prevent and treat blood clots.",
+      "sideEffects": "Bleeding, bruising.",
+      "dosage": [
+        { "age": "Adults", "dose": "2-10mg daily, adjusted by doctor" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Simvastatin",
+      "usage": "Lower cholesterol levels.",
+      "sideEffects": "Muscle pain, liver issues (rare).",
+      "dosage": [
+        { "age": "Adults", "dose": "10-40mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Tramadol",
+      "usage": "Treat moderate to severe pain.",
+      "sideEffects": "Dizziness, nausea.",
+      "dosage": [
+        { "age": "Adults", "dose": "50-100mg every 4-6 hours" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Losartan",
+      "usage": "Treat high blood pressure and heart failure.",
+      "sideEffects": "Dizziness, kidney issues.",
+      "dosage": [
+        { "age": "Adults", "dose": "25-100mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Pantoprazole",
+      "usage": "Treat acid reflux and ulcers.",
+      "sideEffects": "Headache, diarrhea.",
+      "dosage": [
+        { "age": "Adults", "dose": "40mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Gabapentin",
+      "usage": "Treat nerve pain and seizures.",
+      "sideEffects": "Drowsiness, dizziness.",
+      "dosage": [
+        { "age": "Adults", "dose": "300-600mg three times daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Clopidogrel",
+      "usage": "Prevent blood clots.",
+      "sideEffects": "Bleeding, bruising.",
+      "dosage": [
+        { "age": "Adults", "dose": "75mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Doxycycline",
+      "usage": "Treat bacterial infections.",
+      "sideEffects": "Nausea, sun sensitivity.",
+      "dosage": [
+        { "age": "Adults", "dose": "100mg every 12 hours" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Escitalopram",
+      "usage": "Treat depression and anxiety.",
+      "sideEffects": "Nausea, fatigue.",
+      "dosage": [
+        { "age": "Adults", "dose": "10-20mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Furosemide",
+      "usage": "Treat fluid retention and high blood pressure.",
+      "sideEffects": "Dehydration, low potassium.",
+      "dosage": [
+        { "age": "Adults", "dose": "20-80mg daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Ranitidine",
+      "usage": "Treat heartburn and ulcers.",
+      "sideEffects": "Headache, constipation.",
+      "dosage": [
+        { "age": "Adults", "dose": "150mg twice daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Metoprolol",
+      "usage": "Treat high blood pressure and heart conditions.",
+      "sideEffects": "Fatigue, slow heart rate.",
+      "dosage": [
+        { "age": "Adults", "dose": "25-100mg once or twice daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Citalopram",
+      "usage": "Treat depression.",
+      "sideEffects": "Nausea, dry mouth.",
+      "dosage": [
+        { "age": "Adults", "dose": "20-40mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Budesonide",
+      "usage": "Treat asthma and inflammatory bowel disease.",
+      "sideEffects": "Throat irritation, headache.",
+      "dosage": [
+        { "age": "Adults", "dose": "1-2 puffs twice daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Tamsulosin",
+      "usage": "Treat enlarged prostate symptoms.",
+      "sideEffects": "Dizziness, low blood pressure.",
+      "dosage": [
+        { "age": "Adults", "dose": "0.4mg once daily" },
+        { "age": "Children", "dose": "Not applicable" }
+      ]
+    },
+    {
+      "name": "Venlafaxine",
+      "usage": "Treat depression and anxiety.",
+      "sideEffects": "Nausea, sweating.",
+      "dosage": [
+        { "age": "Adults", "dose": "75-225mg daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Allopurinol",
+      "usage": "Treat gout and kidney stones.",
+      "sideEffects": "Rash, liver issues (rare).",
+      "dosage": [
+        { "age": "Adults", "dose": "100-300mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Insulin Glargine",
+      "usage": "Manage diabetes.",
+      "sideEffects": "Hypoglycemia, weight gain.",
+      "dosage": [
+        { "age": "Adults", "dose": "10-20 units once daily, adjusted" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Rosuvastatin",
+      "usage": "Lower cholesterol levels.",
+      "sideEffects": "Muscle pain, liver issues (rare).",
+      "dosage": [
+        { "age": "Adults", "dose": "5-40mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Ondansetron",
+      "usage": "Prevent nausea and vomiting.",
+      "sideEffects": "Headache, constipation.",
+      "dosage": [
+        { "age": "Adults", "dose": "8mg every 8 hours as needed" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Bisoprolol",
+      "usage": "Treat high blood pressure and heart failure.",
+      "sideEffects": "Fatigue, slow heart rate.",
+      "dosage": [
+        { "age": "Adults", "dose": "5-10mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Clarithromycin",
+      "usage": "Treat bacterial infections.",
+      "sideEffects": "Nausea, taste changes.",
+      "dosage": [
+        { "age": "Adults", "dose": "250-500mg every 12 hours" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Lamotrigine",
+      "usage": "Treat seizures and bipolar disorder.",
+      "sideEffects": "Rash, dizziness.",
+      "dosage": [
+        { "age": "Adults", "dose": "25-200mg daily, adjusted" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Carvedilol",
+      "usage": "Treat high blood pressure and heart failure.",
+      "sideEffects": "Dizziness, fatigue.",
+      "dosage": [
+        { "age": "Adults", "dose": "6.25-25mg twice daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Naproxen",
+      "usage": "Pain relief and anti-inflammatory.",
+      "sideEffects": "Stomach upset, kidney issues.",
+      "dosage": [
+        { "age": "Adults", "dose": "250-500mg twice daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Methotrexate",
+      "usage": "Treat cancer and autoimmune diseases.",
+      "sideEffects": "Nausea, liver toxicity.",
+      "dosage": [
+        { "age": "Adults", "dose": "7.5-25mg once weekly" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Enalapril",
+      "usage": "Treat high blood pressure and heart failure.",
+      "sideEffects": "Cough, low blood pressure.",
+      "dosage": [
+        { "age": "Adults", "dose": "5-40mg daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Duloxetine",
+      "usage": "Treat depression and nerve pain.",
+      "sideEffects": "Nausea, dry mouth.",
+      "dosage": [
+        { "age": "Adults", "dose": "30-60mg once daily" },
+        { "age": "Children", "dose": "Consult a doctor" }
+      ]
+    },
+    {
+      "name": "Fluticasone",
+      "usage": "Treat asthma and allergic rhinitis.",
+      "sideEffects": "Nosebleeds, throat irritation.",
+      "dosage": [
+        { "age": "Adults", "dose": "2 sprays per nostril once daily" },
+        { "age": "Children", "dose": "1 spray per nostril once daily" }
+      ]
+    },
+    {
+      "name": "Default",
+      "usage": "Information not available.",
+      "sideEffects": "Information not available.",
+      "dosage": [
+        { "age": "General", "dose": "Consult a doctor" }
+      ]
+    }
+  ]

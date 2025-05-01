@@ -1,11 +1,33 @@
 import React, { useState } from 'react';
+import medicines from './data/medicines.json';
 
 const SearchBar = ({ onSearch }) => {
   const [query, setQuery] = useState('');
+  const [suggestions, setSuggestions] = useState([]);
+
+  const handleInputChange = (e) => {
+    const value = e.target.value;
+    setQuery(value);
+    if (value) {
+      const matches = medicines
+        .filter((med) => med.name.toLowerCase().includes(value.toLowerCase()))
+        .slice(0, 5); // Limit to 5 suggestions
+      setSuggestions(matches);
+    } else {
+      setSuggestions([]);
+    }
+  };
+
+  const handleSuggestionClick = (suggestion) => {
+    setQuery(suggestion.name);
+    setSuggestions([]);
+    onSearch(suggestion.name);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     onSearch(query);
+    setSuggestions([]);
   };
 
   return (
@@ -14,7 +36,7 @@ const SearchBar = ({ onSearch }) => {
         <input
           type="text"
           value={query}
-          onChange={(e) => setQuery(e.target.value)}
+          onChange={handleInputChange}
           placeholder="Search for medicine (e.g., Paracetamol)..."
           className="w-full py-4 px-6 text-gray-700 focus:outline-none"
           required
@@ -28,6 +50,19 @@ const SearchBar = ({ onSearch }) => {
           </svg>
         </button>
       </div>
+      {suggestions.length > 0 && (
+        <ul className="w-full max-w-md mx-auto bg-white shadow-lg rounded-lg mt-2 absolute z-10">
+          {suggestions.map((suggestion) => (
+            <li
+              key={suggestion.name}
+              onClick={() => handleSuggestionClick(suggestion)}
+              className="px-6 py-2 hover:bg-gray-100 cursor-pointer text-gray-700"
+            >
+              {suggestion.name}
+            </li>
+          ))}
+        </ul>
+      )}
     </form>
   );
 };

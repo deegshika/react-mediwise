@@ -1,36 +1,50 @@
 import React, { useState } from 'react';
 import SearchBar from './SearchBar';
 import Result from './Result';
+import medicines from './data/medicines.json';
 
-const mockMedicineData = {
-  // ... (keep your existing mock data)
-  'Paracetamol': {
-    name: 'Paracetamol',
-    usage: 'Pain relief and fever reduction.',
-    sideEffects: 'Rare: skin rash, liver damage if overdosed.',
-    dosage: [
-      { age: 'Adults', dose: '500mg every 6 hours' },
-      { age: 'Children (6-12)', dose: '250mg every 6 hours' },
-    ],
-  },
-  'Ibuprofen': {
-    name: 'Ibuprofen',
-    usage: 'Anti-inflammatory and pain relief.',
-    sideEffects: 'Stomach irritation, kidney issues with prolonged use.',
-    dosage: [
-      { age: 'Adults', dose: '200-400mg every 4-6 hours' },
-      { age: 'Children', dose: 'Consult a doctor' },
-    ],
-  },
-};
+// Log medicines to debug import
+console.log('Medicines data:', medicines);
 
 const MedicineSearch = () => {
   const [medicine, setMedicine] = useState(null);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState(null);
 
-  const handleSearch = (query) => {
+  const handleSearch = async (query) => {
+    if (!query) {
+      setMedicine(null);
+      setError(null);
+      return;
+    }
+
     const formattedQuery = query.charAt(0).toUpperCase() + query.slice(1).toLowerCase();
-    const result = mockMedicineData[formattedQuery];
-    setMedicine(result || null);
+    setLoading(true);
+    setError(null);
+
+    try {
+      // Validate medicines data
+      if (!Array.isArray(medicines)) {
+        throw new Error('Invalid medicine data format');
+      }
+
+      // Filter medicines from JSON
+      const matchedMedicine = medicines.find(
+        (med) => med.name.toLowerCase() === formattedQuery.toLowerCase()
+      );
+
+      if (!matchedMedicine) {
+        throw new Error('No results found. Try another search.');
+      }
+
+      setMedicine(matchedMedicine);
+    } catch (err) {
+      console.error('Error details:', err);
+      setError(err.message);
+      setMedicine(null);
+    } finally {
+      setLoading(false);
+    }
   };
 
   return (
@@ -40,6 +54,8 @@ const MedicineSearch = () => {
         <p className="text-gray-600 mt-2">Search for details about your medication</p>
       </div>
       <SearchBar onSearch={handleSearch} />
+      {loading && <p className="text-center text-gray-600 mt-4">Loading...</p>}
+      {error && <p className="text-center text-red-500 mt-4">{error}</p>}
       <Result medicine={medicine} />
     </div>
   );
